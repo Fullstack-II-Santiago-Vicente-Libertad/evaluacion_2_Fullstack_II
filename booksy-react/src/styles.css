@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(241, 240, 236);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  color: #262323;
+}
+
+.aplicacion { min-height: 100vh; display: flex; flex-direction: column; }
+.navegacion { background-color: #bb9f9f; }
+.navegacion .nav-link { color: #262323; font-size: .92rem; }
+.navegacion .nav-link.active { font-weight: bold; text-decoration: underline; }
+#logo { width: 80px; height: auto; }
+a { color: #644047; }
+a:hover { color: #40282d; }
+h1 { font-size: 2rem; margin-bottom: 1rem; }
+.bienvenida { background-color: #fff; padding: 1.5rem; border: 1px solid #d7cdca; border-radius: .375rem; }
+.card { border-color: #d7cdca; }
+.portada { display: block; width: 200px; max-width: 100%; height: 240px; object-fit: contain; margin: 0 auto; }
+.portada-detalle { height: 360px; }
+.aviso-carrito { min-height: 1.5rem; }
+.precio { font-size: 1.2rem; font-weight: bold; }
+.formulario-mediano { max-width: 780px; }
+.imagen-pendiente { display: flex; flex-direction: column; justify-content: center; text-align: center; padding: 1rem; background-color: #e6e5e1; border: 1px solid #bb9f9f; }
+.imagen-pendiente small { margin-top: .5rem; }
+footer { background-color: #222; color: white; font-size: .85rem; }
+.btn-primary {
+  --bs-btn-bg: #77565b;
+  --bs-btn-border-color: #77565b;
+  --bs-btn-hover-bg: #604247;
+  --bs-btn-hover-border-color: #604247;
+  --bs-btn-active-bg: #604247;
+  --bs-btn-active-border-color: #604247;
+  --bs-btn-disabled-bg: #77565b;
+  --bs-btn-disabled-border-color: #77565b;
+}
+@media (max-width: 575px) {
+  h1 { font-size: 1.65rem; }
+  .bienvenida { padding: 1rem; }
+}

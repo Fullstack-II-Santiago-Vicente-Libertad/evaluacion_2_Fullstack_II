@@ -1,0 +1,5 @@
+Imágenes de Booksy
+
+Los productos usan rutas como /assets/bonsai.jpg.
+Para agregar una portada, copia el archivo a public/assets y escribe su ruta en el panel.
+Si una imagen no se encuentra, se muestra un aviso en su lugar.
